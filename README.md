@@ -1,2 +1,3 @@
 # CAESAR-v.3
- 
+
+Caesar v.1 was the easiest since I knew the shift. All I had to do was convert it into unicode then back into a character. The second one to me was the hardest. I tried doing something with a random number and keeping track of the random numbers to later use the list to decipher it. I couldn't figure that out then it sort of clicked when I saw the character list variable. I then tried to do something with random numbers again until I realized I was just overcomplicating things. All I really needed to do was shift any amount and divide by the length of the character list and use the remainder for the new character from the character list. The third one was easy, since it was just bruteforcing each possible shift possible. I thought to just increase the shift by 1 each time until I reached the length of the character list and it worked. 

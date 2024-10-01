@@ -18,7 +18,7 @@ def ceaser_decipher(secret_message:str):
  
     shift = 0
 
-    while shift < 63:
+    while shift < len(character_list):
         result = ""
         for char in secret_message:
             if char in character_list:
@@ -38,6 +38,6 @@ print()
 
 secret_message = ceaser_cipher(message,num)
 
-print("Decrypted (original message): ")
+print("Decryption : ")
 ceaser_decipher(secret_message)
 print("#########################################################################################################")
